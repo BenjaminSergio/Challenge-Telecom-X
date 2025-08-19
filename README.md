@@ -33,3 +33,42 @@ Com base nos insights gerados, as seguintes ações são recomendadas para a Tel
 3.  **Foco na Retenção de Clientes de Risco:** Desenvolver campanhas de retenção direcionadas para clientes com contratos mensais e que utilizam fibra óptica.
 4.  **Incentivo a Pagamentos Automáticos:** Oferecer benefícios para clientes que optarem por formas de pagamento automáticas, como débito em conta ou cartão de crédito.
 5.  **Programas de Fidelidade para Famílias:** Criar ofertas especiais para clientes com parceiros e dependentes, que se mostraram mais leais à empresa.
+
+## 💻 Tecnologias Utilizadas
+-   **Python 3.x**
+-   **Pandas:** para manipulação e análise dos dados.
+-   **Matplotlib / Seaborn:** para visualização de dados.
+-   **Jupyter Notebook:** como ambiente de desenvolvimento para a análise.
+## ⚙️ Como Rodar o Projeto
+Siga os passos abaixo para executar o projeto localmente.
+### Pré-requisitos
+É necessário ter o Python 3 instalado em sua máquina.
+### Instalação
+1.  Clone o repositório:
+    ```sh
+    git clone [https://github.com/seu-usuario/challenge2-data-science.git](https://github.com/seu-usuario/challenge2-data-science.git)
+    ```
+2.  Navegue até o diretório do projeto:
+    ```sh
+    cd challenge2-data-science
+    ```
+3.  (Opcional, mas recomendado) Crie e ative um ambiente virtual:
+    ```sh
+    python -m venv venv
+    # Windows
+    .\venv\Scripts\activate
+    # Linux / macOS
+    source venv/bin/activate
+    ```
+4.  Instale as dependências necessárias:
+    ```sh
+    pip install pandas matplotlib seaborn jupyter
+    ```
+### Execução
+
+1.  Certifique-se de que o arquivo `TelecomX_Data.json` está no mesmo diretório do seu script ou notebook.
+2.  Inicie o Jupyter Notebook:
+    ```sh
+    jupyter notebook
+    ```
+3.  Abra o arquivo `.ipynb` que contém a análise e execute as células.
